@@ -2,7 +2,6 @@ Time complexity : O(nlgn)
 
 Other than the sort invocation, we do a simple linear scan of the list, so the runtime is dominated by the O(nlgn)
 complexity of sorting.
-
 Space complexity : O(1) (or O(n))
 
 If we can sort intervals in place, we do not need more than constant additional space. 
