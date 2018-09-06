@@ -1,0 +1,19 @@
+
+class Solution:
+	def letterCombinations(self,digits):
+		"""
+		:type digits: str
+		:rtype: List[str]
+		
+		if len(digits) == 0:
+			return []
+		
+		lookup = ['0','1','abc','def','ghi','jkl','mno','pqrs','tuv','wxyz']
+		ans = ['']
+		for i, d in enumerate(digits):
+			while len(ans[0]) == i:
+				s = ans.pop(0)
+				for character in lookup[int(d)]:
+					ans.append(s + character)
+		return ans
+		
