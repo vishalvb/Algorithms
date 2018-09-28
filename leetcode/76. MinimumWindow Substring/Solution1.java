@@ -1,3 +1,9 @@
+Time Complexity: O(|S| + |T|) where |S| and |T| represent the lengths of strings SS and TT. 
+In the worst case we might end up visiting every element of string SS twice, once by left pointer and once by right pointer. 
+|T| represents the length of string TT.
+
+Space Complexity: O(|S| + |T|). |S| when the window size is equal to the entire string SS. |T| when TT has all unique characters.
+
 class Solution {
     public String minWindow(String s, String t) {
         
