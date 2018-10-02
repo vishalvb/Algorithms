@@ -2,7 +2,7 @@
 
 Time Complexity
 Time: O(N). N = number of char in string as we visit each char once only
-Space: O(N). In worst case we need to store all the char in a string. 
+Space: O(1). no additional data structure is needed
 
 
 
