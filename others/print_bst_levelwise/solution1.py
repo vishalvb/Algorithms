@@ -1,5 +1,8 @@
 # Python program to print level order traversal using Queue 
 
+Time: O(n), n is the number of nodes in the binary tree. At max all the nodes are touched twised, once to push and next to pop
+
+
 # A node structure 
 class Node: 
 	# A utility function to create a new node 
