@@ -3,7 +3,8 @@ Complexity
 
 Time:O(N) we are iterating the string only once. we are comparing whether the next char is equal same as current character or not.
 If yes, then we increment the count else we append the current char and count to the final string. 
-Space:
+
+Space: we are creating a output string which in worse case would be of the same size of input. 
 
 
 
